@@ -1,12 +1,12 @@
 {
-    "name": "devfaysal/laracart",
+    "name": "devfaysal/laravelcart",
     "description": "Laravel Shoppingcart",
     "keywords": ["laravel", "shoppingcart"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Rob Gloudemans",
-            "email": "info@robgloudemans.nl"
+            "name": "Faysal Ahamed",
+            "email": "hello@faysal.me"
         }
     ],
     "require": {
