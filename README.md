@@ -376,7 +376,7 @@ The Cart package will throw exceptions if something goes wrong. This way it's ea
 
 The cart also has events build in. There are five events available for you to listen for.
 
-| Event         | Fired                                    | Parameter                        |
+| Event         | Dispatchd                                    | Parameter                        |
 | ------------- | ---------------------------------------- | -------------------------------- |
 | cart.added    | When an item was added to the cart.      | The `CartItem` that was added.   |
 | cart.updated  | When an item in the cart was updated.    | The `CartItem` that was updated. |
