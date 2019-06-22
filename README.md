@@ -2,9 +2,9 @@ This is a fork of [https://github.com/Crinsane/LaravelShoppingcart](https://gith
 The package author might not getting time to manage the package, thats why I am trying to make it compatible with newer versions of Laravel and other packages.
 
 ## LaravelShoppingcart
-[![Build Status](https://travis-ci.org/devfaysal/LaravelShoppingcart.png?branch=master)](https://travis-ci.org/Crinsane/LaravelShoppingcart)
-[![Total Downloads](https://poser.pugx.org/devfaysal/laravelcart/downloads.png)](https://packagist.org/packages/gloudemans/shoppingcart)
-[![Latest Stable Version](https://poser.pugx.org/devfaysal/laravelcart/v/stable)](https://packagist.org/packages/gloudemans/shoppingcart)
+[![Build Status](https://travis-ci.org/devfaysal/LaravelShoppingcart.png?branch=master)](https://travis-ci.org/devfaysal/LaravelShoppingcart)
+[![Total Downloads](https://poser.pugx.org/devfaysal/laravelcart/downloads.png)](https://packagist.org/packages/devfaysal/laravelcart)
+[![Latest Stable Version](https://poser.pugx.org/devfaysal/laravelcart/v/stable)](https://packagist.org/packages/devfaysal/laravelcart)
 [![Latest Unstable Version](https://poser.pugx.org/devfaysal/laravelcart/v/unstable)](https://packagist.org/packages/devfaysal/laravelcart)
 [![License](https://poser.pugx.org/gloudemans/shoppingcart/license)](https://packagist.org/packages/devfaysal/laravelcart)
 
