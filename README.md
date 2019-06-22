@@ -1,8 +1,11 @@
+This is a fork of [https://github.com/Crinsane/LaravelShoppingcart](https://github.com/Crinsane/LaravelShoppingcart)
+The package author might not getting time to manage the package, thats why I am trying to make it compatible with newer versions of Laravel and other packages.
+
 ## LaravelShoppingcart
-[![Build Status](https://travis-ci.org/Crinsane/LaravelShoppingcart.png?branch=master)](https://travis-ci.org/Crinsane/LaravelShoppingcart)
-[![Total Downloads](https://poser.pugx.org/gloudemans/shoppingcart/downloads.png)](https://packagist.org/packages/gloudemans/shoppingcart)
-[![Latest Stable Version](https://poser.pugx.org/gloudemans/shoppingcart/v/stable)](https://packagist.org/packages/gloudemans/shoppingcart)
-[![Latest Unstable Version](https://poser.pugx.org/gloudemans/shoppingcart/v/unstable)](https://packagist.org/packages/devfaysal/laravelcart)
+[![Build Status](https://travis-ci.org/devfaysal/LaravelShoppingcart.png?branch=master)](https://travis-ci.org/Crinsane/LaravelShoppingcart)
+[![Total Downloads](https://poser.pugx.org/devfaysal/laravelcart/downloads.png)](https://packagist.org/packages/gloudemans/shoppingcart)
+[![Latest Stable Version](https://poser.pugx.org/devfaysal/laravelcart/v/stable)](https://packagist.org/packages/gloudemans/shoppingcart)
+[![Latest Unstable Version](https://poser.pugx.org/devfaysal/laravelcart/v/unstable)](https://packagist.org/packages/devfaysal/laravelcart)
 [![License](https://poser.pugx.org/gloudemans/shoppingcart/license)](https://packagist.org/packages/devfaysal/laravelcart)
 
 A simple shoppingcart implementation for Laravel.
@@ -14,20 +17,6 @@ Install the package through [Composer](http://getcomposer.org/).
 Run the Composer require command from the Terminal:
 
     composer require devfaysal/laravelcart
-    
-If you're using Laravel 5.5, this is all there is to do. 
-
-Should you still be on version 5.4 of Laravel, the final steps for you are to add the service provider of the package and alias the package. To do this open your `config/app.php` file.
-
-Add a new line to the `providers` array:
-
-	Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class
-
-And optionally add a new line to the `aliases` array:
-
-	'Cart' => Gloudemans\Shoppingcart\Facades\Cart::class,
-
-Now you're ready to start using the shoppingcart in your application.
 
 **As of version 2 of this package it's possibly to use dependency injection to inject an instance of the Cart class into your controller or other class**
 
